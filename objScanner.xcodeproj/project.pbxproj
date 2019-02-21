@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340BAB7A221D945300AA5072 /* model.obj in Resources */ = {isa = PBXBuildFile; fileRef = 340BAB76221D945300AA5072 /* model.obj */; };
+		340BAB80221DDC2800AA5072 /* JFOBJParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340BAB7F221DDC2800AA5072 /* JFOBJParser.swift */; };
+		340BAB82221DDC3300AA5072 /* JFLineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340BAB81221DDC3300AA5072 /* JFLineReader.swift */; };
+		340E69C4221F3A9800EE5FFA /* simple.obj in Resources */ = {isa = PBXBuildFile; fileRef = 340E69C3221F3A9800EE5FFA /* simple.obj */; };
 		341067D2221CB62700D6746D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341067D1221CB62700D6746D /* AppDelegate.swift */; };
 		341067D4221CB62700D6746D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341067D3221CB62700D6746D /* ViewController.swift */; };
 		341067D7221CB62700D6746D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341067D5221CB62700D6746D /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340BAB76221D945300AA5072 /* model.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.obj; sourceTree = "<group>"; };
+		340BAB7F221DDC2800AA5072 /* JFOBJParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFOBJParser.swift; sourceTree = "<group>"; };
+		340BAB81221DDC3300AA5072 /* JFLineReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFLineReader.swift; sourceTree = "<group>"; };
+		340E69C3221F3A9800EE5FFA /* simple.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.obj; sourceTree = "<group>"; };
 		341067CE221CB62700D6746D /* objScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		341067D1221CB62700D6746D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		341067D3221CB62700D6746D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340BAB72221D945300AA5072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340E69C3221F3A9800EE5FFA /* simple.obj */,
+				340BAB76221D945300AA5072 /* model.obj */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340BAB7E221DDC1B00AA5072 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				340BAB81221DDC3300AA5072 /* JFLineReader.swift */,
+				340BAB7F221DDC2800AA5072 /* JFOBJParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
 		341067C5221CB62700D6746D = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +80,8 @@
 		341067D0221CB62700D6746D /* objScanner */ = {
 			isa = PBXGroup;
 			children = (
+				340BAB7E221DDC1B00AA5072 /* Parser */,
+				340BAB72221D945300AA5072 /* Model */,
 				341067D1221CB62700D6746D /* AppDelegate.swift */,
 				341067D3221CB62700D6746D /* ViewController.swift */,
 				341067D5221CB62700D6746D /* Main.storyboard */,
@@ -122,8 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340BAB7A221D945300AA5072 /* model.obj in Resources */,
 				341067DC221CB62800D6746D /* LaunchScreen.storyboard in Resources */,
 				341067D9221CB62800D6746D /* Assets.xcassets in Resources */,
+				340E69C4221F3A9800EE5FFA /* simple.obj in Resources */,
 				341067D7221CB62700D6746D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340BAB80221DDC2800AA5072 /* JFOBJParser.swift in Sources */,
 				341067D4221CB62700D6746D /* ViewController.swift in Sources */,
 				341067D2221CB62700D6746D /* AppDelegate.swift in Sources */,
+				340BAB82221DDC3300AA5072 /* JFLineReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

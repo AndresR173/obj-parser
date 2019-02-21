@@ -1,0 +1,20 @@
+# OSX
+.DS_Store
+
+# Xcode
+xcuserdata/
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/output
+Fastlane/README.md
+build/*
+
+*.obj
+
