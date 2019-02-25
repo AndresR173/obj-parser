@@ -11,23 +11,80 @@ import SceneKit
 
 class ViewController: UIViewController {
 
-    var parser: JFOBJParser<JFLineReader>?
+    //MARK: - Properties
+    lazy var roofMaterial: SCNMaterial = {
+        let material = SCNMaterial()
+        let image = roofTextures[0]
+        material.multiply.contentsTransform =  SCNMatrix4MakeScale(1/10, 1 / 10, 1)
+        material.multiply.contents = image
+        material.multiply.wrapS = .repeat
+        material.multiply.wrapT = .repeat
+        material.multiply.minificationFilter = .none
+        material.multiply.mipFilter = .none
+        material.isDoubleSided = false
+        material.lightingModel = .lambert
 
-    var sceneView: SCNView {
-        return self.view as! SCNView
+        return material
+    }()
+
+    lazy var wallMaterial: SCNMaterial = {
+        let material = SCNMaterial()
+        let image = wallTextures[0]
+        material.multiply.contentsTransform =  SCNMatrix4MakeScale(1/10, 1 / 10, 1)
+        material.multiply.contents = image
+        material.multiply.wrapS = .repeat
+        material.multiply.wrapT = .repeat
+        material.multiply.minificationFilter = .none
+        material.multiply.mipFilter = .none
+        material.isDoubleSided = false
+        material.lightingModel = .lambert
+
+        return material
+    }()
+
+    lazy var windowMaterial: SCNMaterial = {
+        let material = SCNMaterial()
+        let image = #imageLiteral(resourceName: "window")
+        material.multiply.contentsTransform =  SCNMatrix4MakeScale(1/10, 1 / 10, 1)
+        material.multiply.contents = image
+        material.multiply.wrapS = .repeat
+        material.multiply.wrapT = .repeat
+        material.multiply.minificationFilter = .none
+        material.multiply.mipFilter = .none
+        material.isDoubleSided = false
+        material.lightingModel = .lambert
+
+        return material
+    }()
+
+    let wallTextures = [#imageLiteral(resourceName: "wall1"), #imageLiteral(resourceName: "wall2"), #imageLiteral(resourceName: "wall3")]
+    let roofTextures = [#imageLiteral(resourceName: "roof1"), #imageLiteral(resourceName: "roof2"), #imageLiteral(resourceName: "roof3")]
+
+    // MARK: - IBOutlets
+    @IBOutlet weak var sceneView: SCNView!
+
+    // MARK: - IBActions
+
+    @IBAction func setWallsTexture(_ sender: UIButton) {
+        let index = Int.random(in: 0 ..< 3)
+        let texture = wallTextures[index]
+        wallMaterial.multiply.contents = texture
     }
+    @IBAction func setRoofsTexture(_ sender: UIButton) {
+        let index = Int.random(in: 0 ..< 3)
+        let texture = roofTextures[index]
+        roofMaterial.multiply.contents = texture
+    }
+
+    // AMRK: - Properties
+    var parser: JFOBJParser<JFLineReader>?
 
     lazy var cameraNode = SCNNode()
     lazy var scene = SCNScene()
 
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        sceneView.autoenablesDefaultLighting = true
-//        sceneView.allowsCameraControl = true
-//        sceneView.scene = scene
-//        sceneView.backgroundColor = UIColor.black
-//        sceneView.showsStatistics = true
 
         setupScene()
 
@@ -57,7 +114,6 @@ extension ViewController {
 
     private func setupScene() {
         sceneView.scene = scene
-//        sceneView.delegate = self
 
         sceneView.showsStatistics = true
 
@@ -67,9 +123,11 @@ extension ViewController {
 
         sceneView.backgroundColor = .black
 
-        //setupCamera()
-
         sceneView.isPlaying = true
+    }
+
+    private func createModel() {
+
     }
 
     private func showModel() {
@@ -79,33 +137,9 @@ extension ViewController {
 
         let groups = parser.model.groups
 
-        let material = SCNMaterial()
-        let image = UIImage(named: "roof")
-//        material.diffuse.contents = UIColor.red
-        material.multiply.contentsTransform =  SCNMatrix4MakeScale(1/10, 1 / 10, 1)
-        material.multiply.contents = image
-        material.multiply.wrapS = .repeat
-        material.multiply.wrapT = .repeat
-        //material.multiply.contentsTransform = textureScale
-        material.multiply.minificationFilter = .none
-        material.multiply.mipFilter = .none
-        material.isDoubleSided = false
-        material.lightingModel = .lambert
 
-        let material2 = SCNMaterial()
-        let image2 = UIImage(named: "brick")
-        //        material.diffuse.contents = UIColor.red
-        material2.multiply.contentsTransform =  SCNMatrix4MakeScale(1/10, 1 / 10, 1)
-        material2.multiply.contents = image2
-        material2.multiply.wrapS = .repeat
-        material2.multiply.wrapT = .repeat
-        //material.multiply.contentsTransform = textureScale
-        material2.multiply.minificationFilter = .none
-        material2.multiply.mipFilter = .none
-        material2.isDoubleSided = false
-        material2.lightingModel = .lambert
 
-        for group in groups where !group.name.contains("WallPen") {
+        for group in groups {
             for face in group.faces {
                 let indices: [Int32] = [0, 1, 2]
 
@@ -125,14 +159,16 @@ extension ViewController {
 
                 let geometry = SCNGeometry(sources: [sVertices, sNormals, sTextures], elements: [element])
 
-                if group.name.contains("Roof") {
-                    geometry.materials = [material]
-                } else {
-                    geometry.materials = [material2]
-                }
-
-
                 let node = SCNNode(geometry: geometry)
+                node.name = group.name
+
+                if group.name.contains("Roof") {
+                    geometry.materials = [roofMaterial]
+                } else if group.name.contains("WallPen") {
+                    geometry.materials = [windowMaterial]
+                } else {
+                    geometry.materials = [wallMaterial]
+                }
 
                 scene.rootNode.addChildNode(node)
             }

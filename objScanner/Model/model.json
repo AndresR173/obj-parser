@@ -1,0 +1,4274 @@
+{
+  "EAGLEVIEW_EXPORT": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "REPORT": {
+      "@reportId": "24859602"
+    },
+    "VERSION": {
+      "@precision": "0",
+      "@sourceVersion": "1028",
+      "@targetVersion": "0"
+    },
+    "LOCATION": {
+      "@address": "145 30th Ave",
+      "@city": "Seattle",
+      "@lat": "47.6028624",
+      "@long": "@122.2938190",
+      "@postal": "98122",
+      "@state": "WA"
+    },
+    "STRUCTURES": {
+      "@northorientation": "1.1",
+      "ROOF": {
+        "@id": "ROOF1",
+        "FACES": {
+          "FACE": [
+            {
+              "@designator": "L",
+              "@id": "F1",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P1",
+                "@orientation": "268.9",
+                "@path": "L1,L3,L4,L5,L6,L7,L2",
+                "@pitch": "8",
+                "@size": "881",
+                "@unroundedsize": "881.167033554"
+              }
+            },
+            {
+              "@designator": "E",
+              "@id": "F2",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P2",
+                "@orientation": "358.9",
+                "@path": "L8,L10,L9,L7",
+                "@pitch": "10",
+                "@size": "63",
+                "@unroundedsize": "62.600832421"
+              }
+            },
+            {
+              "@designator": "F",
+              "@id": "F3",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P3",
+                "@orientation": "178.9",
+                "@path": "L8,L6,L11,L12",
+                "@pitch": "10",
+                "@size": "63",
+                "@unroundedsize": "62.600832421"
+              }
+            },
+            {
+              "@designator": "M",
+              "@id": "F4",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P4",
+                "@orientation": "88.9",
+                "@path": "L3,L13,L15,L16,L17,L18,L19,L20,L21,L22,L23,L24,L14",
+                "@pitch": "8",
+                "@size": "1425",
+                "@unroundedsize": "1425.304245208"
+              }
+            },
+            {
+              "@designator": "J",
+              "@id": "F5",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P5",
+                "@orientation": "178.9",
+                "@path": "L17,L25,L27,L26",
+                "@pitch": "7",
+                "@size": "328",
+                "@unroundedsize": "327.968980106"
+              }
+            },
+            {
+              "@designator": "I",
+              "@id": "F6",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P6",
+                "@orientation": "358.9",
+                "@path": "L25,L16,L28,L29",
+                "@pitch": "7",
+                "@size": "328",
+                "@unroundedsize": "327.968980106"
+              }
+            },
+            {
+              "@designator": "D",
+              "@id": "F7",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P7",
+                "@orientation": "88.9",
+                "@path": "L30,L32,L33,L31",
+                "@pitch": "4",
+                "@size": "13",
+                "@unroundedsize": "12.924990859"
+              }
+            },
+            {
+              "@designator": "H",
+              "@id": "F8",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P8",
+                "@orientation": "178.9",
+                "@path": "L34,L36,L38,L37",
+                "@pitch": "10",
+                "@size": "127",
+                "@unroundedsize": "126.502597766"
+              }
+            },
+            {
+              "@designator": "G",
+              "@id": "F9",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P9",
+                "@orientation": "358.9",
+                "@path": "L35,L37,L40,L39",
+                "@pitch": "10",
+                "@size": "127",
+                "@unroundedsize": "126.502597766"
+              }
+            },
+            {
+              "@designator": "C",
+              "@id": "F10",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P10",
+                "@orientation": "358.9",
+                "@path": "L41,L42,L43,L44",
+                "@pitch": "9",
+                "@size": "12",
+                "@unroundedsize": "11.939637131"
+              }
+            },
+            {
+              "@designator": "B",
+              "@id": "F11",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P11",
+                "@orientation": "311.8",
+                "@path": "L45,L46,L43",
+                "@pitch": "13",
+                "@size": "6",
+                "@unroundedsize": "5.641909028"
+              }
+            },
+            {
+              "@designator": "A",
+              "@id": "F12",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P12",
+                "@orientation": "46.3",
+                "@path": "L41,L47,L48",
+                "@pitch": "14",
+                "@size": "6",
+                "@unroundedsize": "5.600798621"
+              }
+            },
+            {
+              "@designator": "K",
+              "@id": "F13",
+              "@material": "1",
+              "@type": "ROOF",
+              "POLYGON": {
+                "@id": "P13",
+                "@orientation": "268.9",
+                "@path": "L49,L24,L50,L52,L53,L51,L35,L34",
+                "@pitch": "8",
+                "@size": "624",
+                "@unroundedsize": "624.372251166"
+              }
+            },
+            {
+              "@designator": "F",
+              "@id": "F14",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F72",
+              "POLYGON": {
+                "@id": "P14",
+                "@orientation": "1.1",
+                "@path": "L57,L58,L59,L60",
+                "@pitch": "Infinity",
+                "@size": "30",
+                "@unroundedsize": "29.770071499"
+              }
+            },
+            {
+              "@designator": "L",
+              "@id": "F15",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P15",
+                "@orientation": "1.1",
+                "@path": "L64,L62,L65,L66",
+                "@pitch": "Infinity",
+                "@size": "47",
+                "@unroundedsize": "47.067802346"
+              }
+            },
+            {
+              "@designator": "K",
+              "@id": "F16",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P16",
+                "@orientation": "181.1",
+                "@path": "L70,L69,L71,L72",
+                "@pitch": "Infinity",
+                "@size": "47",
+                "@unroundedsize": "47.067802346"
+              }
+            },
+            {
+              "@designator": "P",
+              "@id": "F17",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P17",
+                "@orientation": "1.1",
+                "@path": "L76,L75,L77,L78,L79",
+                "@pitch": "Infinity",
+                "@size": "105",
+                "@unroundedsize": "105.411887534"
+              }
+            },
+            {
+              "@designator": "AA",
+              "@id": "F18",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F62,F101",
+              "POLYGON": {
+                "@id": "P18",
+                "@orientation": "271.1",
+                "@path": "L80,L81,L78,L82,L83",
+                "@pitch": "Infinity",
+                "@size": "432",
+                "@unroundedsize": "432.075347820"
+              }
+            },
+            {
+              "@designator": "T",
+              "@id": "F19",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F79",
+              "POLYGON": {
+                "@id": "P19",
+                "@orientation": "91.1",
+                "@path": "L103,L102,L104,L105",
+                "@pitch": "Infinity",
+                "@size": "139",
+                "@unroundedsize": "138.531217431"
+              }
+            },
+            {
+              "@designator": "V",
+              "@id": "F20",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F80,F81",
+              "POLYGON": {
+                "@id": "P20",
+                "@orientation": "91.1",
+                "@path": "L114,L100,L115,L112",
+                "@pitch": "Infinity",
+                "@size": "244",
+                "@unroundedsize": "244.171492242"
+              }
+            },
+            {
+              "@designator": "C",
+              "@id": "F21",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P21",
+                "@orientation": "181.1",
+                "@path": "L116,L117,L118,L119",
+                "@pitch": "Infinity",
+                "@size": "17",
+                "@unroundedsize": "16.610720422"
+              }
+            },
+            {
+              "@designator": "W",
+              "@id": "F22",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F65,F66,F67,F68",
+              "POLYGON": {
+                "@id": "P22",
+                "@orientation": "271.1",
+                "@path": "L120,L123,L73,L72,L74,L75,L124",
+                "@pitch": "Infinity",
+                "@size": "271",
+                "@unroundedsize": "270.644541027"
+              }
+            },
+            {
+              "@designator": "Q",
+              "@id": "F23",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P23",
+                "@orientation": "181.1",
+                "@path": "L120,L121,L125,L126",
+                "@pitch": "Infinity",
+                "@size": "121",
+                "@unroundedsize": "120.655820417"
+              }
+            },
+            {
+              "@designator": "AC",
+              "@id": "F24",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F75,F76",
+              "POLYGON": {
+                "@id": "P24",
+                "@orientation": "1.1",
+                "@path": "L128,L130,L107,L129,L122,L131,L108,L113,L130,L170,L169,L112,L111,L105,L110,L127,L136,L137",
+                "@pitch": "Infinity",
+                "@size": "1281",
+                "@unroundedsize": "1280.844534653"
+              }
+            },
+            {
+              "@designator": "I",
+              "@id": "F25",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F73",
+              "POLYGON": {
+                "@id": "P25",
+                "@orientation": "1.1",
+                "@path": "L60,L106,L107,L132",
+                "@pitch": "Infinity",
+                "@size": "33",
+                "@unroundedsize": "32.742260218"
+              }
+            },
+            {
+              "@designator": "H",
+              "@id": "F26",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F74",
+              "POLYGON": {
+                "@id": "P26",
+                "@orientation": "1.1",
+                "@path": "L108,L109,L58,L133",
+                "@pitch": "Infinity",
+                "@size": "33",
+                "@unroundedsize": "32.512881297"
+              }
+            },
+            {
+              "@designator": "X",
+              "@id": "F27",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F64,F69,F70,F71",
+              "POLYGON": {
+                "@id": "P27",
+                "@orientation": "271.1",
+                "@path": "L138,L62,L63,L61,L136",
+                "@pitch": "Infinity",
+                "@size": "283",
+                "@unroundedsize": "283.177213315"
+              }
+            },
+            {
+              "@designator": "R",
+              "@id": "F28",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F78",
+              "POLYGON": {
+                "@id": "P28",
+                "@orientation": "1.1",
+                "@path": "L143,L142,L89,L139",
+                "@pitch": "Infinity",
+                "@size": "121",
+                "@unroundedsize": "121.248494080"
+              }
+            },
+            {
+              "@designator": "S",
+              "@id": "F29",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P29",
+                "@orientation": "271.1",
+                "@path": "L145,L144,L55,L140",
+                "@pitch": "Infinity",
+                "@size": "137",
+                "@unroundedsize": "136.691334393"
+              }
+            },
+            {
+              "@designator": "AB",
+              "@id": "F30",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F82,F83,F84,F85,F86,F87,F88",
+              "POLYGON": {
+                "@id": "P30",
+                "@orientation": "91.1",
+                "@path": "L149,L147,L56,L148,L150,L146,L54,L134,L118,L135,L142",
+                "@pitch": "Infinity",
+                "@size": "740",
+                "@unroundedsize": "739.930021424"
+              }
+            },
+            {
+              "@designator": "M",
+              "@id": "F31",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P31",
+                "@orientation": "91.1",
+                "@path": "L153,L152,L172,L171,L151",
+                "@pitch": "Infinity",
+                "@size": "65",
+                "@unroundedsize": "65.488962599"
+              }
+            },
+            {
+              "@designator": "J",
+              "@id": "F32",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P32",
+                "@orientation": "271.1",
+                "@path": "L156,L155,L94,L154",
+                "@pitch": "Infinity",
+                "@size": "40",
+                "@unroundedsize": "40.287147559"
+              }
+            },
+            {
+              "@designator": "G",
+              "@id": "F33",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P33",
+                "@orientation": "91.1",
+                "@path": "L159,L158,L93,L157",
+                "@pitch": "Infinity",
+                "@size": "30",
+                "@unroundedsize": "30.108007698"
+              }
+            },
+            {
+              "@designator": "E",
+              "@id": "F34",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P34",
+                "@orientation": "1.1",
+                "@path": "L160,L151,L96,L155",
+                "@pitch": "Infinity",
+                "@size": "19",
+                "@unroundedsize": "18.785228209"
+              }
+            },
+            {
+              "@designator": "A",
+              "@id": "F35",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P35",
+                "@orientation": "1.1",
+                "@path": "L161,L158,L95,L148",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "15.026340524"
+              }
+            },
+            {
+              "@designator": "D",
+              "@id": "F36",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P36",
+                "@orientation": "181.1",
+                "@path": "L162,L154,L92,L144",
+                "@pitch": "Infinity",
+                "@size": "19",
+                "@unroundedsize": "18.782752441"
+              }
+            },
+            {
+              "@designator": "B",
+              "@id": "F37",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P37",
+                "@orientation": "181.1",
+                "@path": "L163,L157,L91,L147",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "15.028816292"
+              }
+            },
+            {
+              "@designator": "Z",
+              "@id": "F38",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F61,F63",
+              "POLYGON": {
+                "@id": "P38",
+                "@orientation": "271.1",
+                "@path": "L69,L67,L68,L66,L164,L166,L167,L168,L165",
+                "@pitch": "Infinity",
+                "@size": "319",
+                "@unroundedsize": "318.917336920"
+              }
+            },
+            {
+              "@designator": "O",
+              "@id": "F39",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P39",
+                "@orientation": "271.1",
+                "@path": "L176,L175,L88,L174",
+                "@pitch": "Infinity",
+                "@size": "97",
+                "@unroundedsize": "97.345291745"
+              }
+            },
+            {
+              "@designator": "AD",
+              "@id": "F40",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F92,F93,F94,F95,F96,F97,F98,F99,F100",
+              "POLYGON": {
+                "@id": "P40",
+                "@orientation": "181.1",
+                "@path": "L173,L84,L85,L83,L86,L174,L180,L177",
+                "@pitch": "Infinity",
+                "@size": "1574",
+                "@unroundedsize": "1573.787516806"
+              }
+            },
+            {
+              "@designator": "N",
+              "@id": "F41",
+              "@material": "1",
+              "@type": "WALL",
+              "POLYGON": {
+                "@id": "P41",
+                "@orientation": "1.1",
+                "@path": "L141,L140,L90,L175,L181,L178",
+                "@pitch": "Infinity",
+                "@size": "82",
+                "@unroundedsize": "82.235530188"
+              }
+            },
+            {
+              "@designator": "U",
+              "@id": "F42",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F89,F90,F91",
+              "POLYGON": {
+                "@id": "P42",
+                "@orientation": "91.1",
+                "@path": "L139,L87,L177,L179,L178,L182",
+                "@pitch": "Infinity",
+                "@size": "223",
+                "@unroundedsize": "222.884580325"
+              }
+            },
+            {
+              "@designator": "Y",
+              "@id": "F43",
+              "@material": "1",
+              "@type": "WALL",
+              "@children": "F77",
+              "POLYGON": {
+                "@id": "P43",
+                "@orientation": "1.1",
+                "@path": "L99,L100,L101,L102,L97,L98,L146,L183,L152",
+                "@pitch": "Infinity",
+                "@size": "289",
+                "@unroundedsize": "289.141871978"
+              }
+            },
+            {
+              "@designator": "Z1",
+              "@id": "F61",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P61",
+                "@orientation": "88.9",
+                "@path": "L254,L256,L257,L255",
+                "@pitch": "Infinity",
+                "@size": "46",
+                "@unroundedsize": "46.449607288"
+              }
+            },
+            {
+              "@designator": "AA1",
+              "@id": "F62",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P62",
+                "@orientation": "88.9",
+                "@path": "L258,L260,L261,L259",
+                "@pitch": "Infinity",
+                "@size": "130",
+                "@unroundedsize": "130.205724550"
+              }
+            },
+            {
+              "@designator": "Z2",
+              "@id": "F63",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P63",
+                "@orientation": "88.9",
+                "@path": "L262,L264,L265,L266,L267,L268,L270,L271,L272,L269,L263",
+                "@pitch": "Infinity",
+                "@size": "31",
+                "@unroundedsize": "30.611685060"
+              }
+            },
+            {
+              "@designator": "X1",
+              "@id": "F64",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P64",
+                "@orientation": "88.9",
+                "@path": "L273,L275,L276,L274",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.667478009"
+              }
+            },
+            {
+              "@designator": "W1",
+              "@id": "F65",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P65",
+                "@orientation": "88.9",
+                "@path": "L277,L279,L280,L278",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "W2",
+              "@id": "F66",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P66",
+                "@orientation": "88.9",
+                "@path": "L281,L283,L284,L282",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "W3",
+              "@id": "F67",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P67",
+                "@orientation": "88.9",
+                "@path": "L285,L287,L288,L286",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "W4",
+              "@id": "F68",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P68",
+                "@orientation": "88.9",
+                "@path": "L289,L291,L292,L290",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "X2",
+              "@id": "F69",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P69",
+                "@orientation": "88.9",
+                "@path": "L293,L295,L296,L294",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "X3",
+              "@id": "F70",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P70",
+                "@orientation": "88.9",
+                "@path": "L297,L299,L300,L298",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "X4",
+              "@id": "F71",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P71",
+                "@orientation": "88.9",
+                "@path": "L301,L303,L304,L302",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.667478009"
+              }
+            },
+            {
+              "@designator": "F1",
+              "@id": "F72",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P72",
+                "@orientation": "358.9",
+                "@path": "L305,L307,L308,L306",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "I1",
+              "@id": "F73",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P73",
+                "@orientation": "314.2",
+                "@path": "L309,L311,L312,L310",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "H1",
+              "@id": "F74",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P74",
+                "@orientation": "44",
+                "@path": "L313,L315,L316,L314",
+                "@pitch": "Infinity",
+                "@size": "15",
+                "@unroundedsize": "14.545801359"
+              }
+            },
+            {
+              "@designator": "AC1",
+              "@id": "F75",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P75",
+                "@orientation": "358.9",
+                "@path": "L317,L319,L320,L318",
+                "@pitch": "Infinity",
+                "@size": "32",
+                "@unroundedsize": "32.000762989"
+              }
+            },
+            {
+              "@designator": "AC2",
+              "@id": "F76",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P76",
+                "@orientation": "178.9",
+                "@path": "L321,L323,L324,L322",
+                "@pitch": "Infinity",
+                "@size": "32",
+                "@unroundedsize": "32.000762989"
+              }
+            },
+            {
+              "@designator": "Y1",
+              "@id": "F77",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P77",
+                "@orientation": "358.9",
+                "@path": "L325,L327,L328,L326",
+                "@pitch": "Infinity",
+                "@size": "49",
+                "@unroundedsize": "48.873892566"
+              }
+            },
+            {
+              "@designator": "R1",
+              "@id": "F78",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P78",
+                "@orientation": "178.9",
+                "@path": "L329,L331,L332,L330",
+                "@pitch": "Infinity",
+                "@size": "49",
+                "@unroundedsize": "48.873892566"
+              }
+            },
+            {
+              "@designator": "T1",
+              "@id": "F79",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P79",
+                "@orientation": "88.9",
+                "@path": "L333,L335,L336,L334",
+                "@pitch": "Infinity",
+                "@size": "32",
+                "@unroundedsize": "32.000762989"
+              }
+            },
+            {
+              "@designator": "V1",
+              "@id": "F80",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P80",
+                "@orientation": "88.9",
+                "@path": "L337,L339,L340,L338",
+                "@pitch": "Infinity",
+                "@size": "32",
+                "@unroundedsize": "32.000762989"
+              }
+            },
+            {
+              "@designator": "V2",
+              "@id": "F81",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P81",
+                "@orientation": "88.9",
+                "@path": "L341,L343,L344,L342",
+                "@pitch": "Infinity",
+                "@size": "2",
+                "@unroundedsize": "2.327328217"
+              }
+            },
+            {
+              "@designator": "AB1",
+              "@id": "F82",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P82",
+                "@orientation": "88.9",
+                "@path": "L345,L347,L348,L346",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "AB2",
+              "@id": "F83",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P83",
+                "@orientation": "88.9",
+                "@path": "L349,L351,L352,L350",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "AB3",
+              "@id": "F84",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P84",
+                "@orientation": "268.9",
+                "@path": "L353,L355,L356,L354",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "AB4",
+              "@id": "F85",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P85",
+                "@orientation": "268.9",
+                "@path": "L357,L359,L360,L358",
+                "@pitch": "Infinity",
+                "@size": "16",
+                "@unroundedsize": "16.000381495"
+              }
+            },
+            {
+              "@designator": "AB5",
+              "@id": "F86",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P86",
+                "@orientation": "268.9",
+                "@path": "L366,L365,L361,L362,L367,L368",
+                "@pitch": "Infinity",
+                "@size": "7",
+                "@unroundedsize": "6.743478697"
+              }
+            },
+            {
+              "@designator": "AB6",
+              "@id": "F87",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P87",
+                "@orientation": "268.9",
+                "@path": "L364,L363,L371,L372,L369,L370",
+                "@pitch": "Infinity",
+                "@size": "6",
+                "@unroundedsize": "6.317010778"
+              }
+            },
+            {
+              "@designator": "AB7",
+              "@id": "F88",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P88",
+                "@orientation": "268.9",
+                "@path": "L373,L375,L376,L374",
+                "@pitch": "Infinity",
+                "@size": "32",
+                "@unroundedsize": "32.000762989"
+              }
+            },
+            {
+              "@designator": "U1",
+              "@id": "F89",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P89",
+                "@orientation": "268.9",
+                "@path": "L377,L379,L380,L378",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "U2",
+              "@id": "F90",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P90",
+                "@orientation": "88.9",
+                "@path": "L381,L383,L384,L382",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "U3",
+              "@id": "F91",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P91",
+                "@orientation": "268.9",
+                "@path": "L385,L387,L388,L386",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD1",
+              "@id": "F92",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P92",
+                "@orientation": "358.9",
+                "@path": "L389,L391,L392,L390",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD2",
+              "@id": "F93",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P93",
+                "@orientation": "358.9",
+                "@path": "L393,L395,L396,L394",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD3",
+              "@id": "F94",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P94",
+                "@orientation": "358.9",
+                "@path": "L397,L399,L400,L398",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD4",
+              "@id": "F95",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P95",
+                "@orientation": "358.9",
+                "@path": "L401,L403,L404,L402",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD5",
+              "@id": "F96",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P96",
+                "@orientation": "358.9",
+                "@path": "L405,L407,L408,L406",
+                "@pitch": "Infinity",
+                "@size": "24",
+                "@unroundedsize": "24.436946283"
+              }
+            },
+            {
+              "@designator": "AD6",
+              "@id": "F97",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P97",
+                "@orientation": "178.9",
+                "@path": "L409,L411,L412,L410",
+                "@pitch": "Infinity",
+                "@size": "10",
+                "@unroundedsize": "10.472976978"
+              }
+            },
+            {
+              "@designator": "AD7",
+              "@id": "F98",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P98",
+                "@orientation": "358.9",
+                "@path": "L413,L415,L416,L414",
+                "@pitch": "Infinity",
+                "@size": "33",
+                "@unroundedsize": "32.579799947"
+              }
+            },
+            {
+              "@designator": "AD8",
+              "@id": "F99",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P99",
+                "@orientation": "358.9",
+                "@path": "L417,L419,L420,L418",
+                "@pitch": "Infinity",
+                "@size": "20",
+                "@unroundedsize": "19.593063561"
+              }
+            },
+            {
+              "@designator": "AD9",
+              "@id": "F100",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P100",
+                "@orientation": "358.9",
+                "@path": "L421,L423,L424,L422",
+                "@pitch": "Infinity",
+                "@size": "3",
+                "@unroundedsize": "3.490992326"
+              }
+            },
+            {
+              "@designator": "AA2",
+              "@id": "F101",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "POLYGON": {
+                "@id": "P101",
+                "@orientation": "88.9",
+                "@path": "L425,L427,L428,L426",
+                "@pitch": "Infinity",
+                "@size": "3",
+                "@unroundedsize": "3.490992326"
+              }
+            }
+          ]
+        },
+        "LINES": {
+          "LINE": [
+            {
+              "@id": "L1",
+              "@path": "C5,C6",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L2",
+              "@path": "C11,C5",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L3",
+              "@path": "C6,C7",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L4",
+              "@path": "C7,C8",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L5",
+              "@path": "C8,C9",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L6",
+              "@path": "C9,C10",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L7",
+              "@path": "C10,C11",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L8",
+              "@path": "C10,C12",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L9",
+              "@path": "C13,C11",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L10",
+              "@path": "C12,C13",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L11",
+              "@path": "C9,C14",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L12",
+              "@path": "C14,C12",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L13",
+              "@path": "C6,C15",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L14",
+              "@path": "C25,C7",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L15",
+              "@path": "C15,C16",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L16",
+              "@path": "C16,C17",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L17",
+              "@path": "C17,C18",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L18",
+              "@path": "C18,C19",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L19",
+              "@path": "C19,C20",
+              "@type": "STEPFLASH"
+            },
+            {
+              "@id": "L20",
+              "@path": "C20,C21",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L21",
+              "@path": "C21,C22",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L22",
+              "@path": "C22,C23",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L23",
+              "@path": "C23,C24",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L24",
+              "@path": "C24,C25",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L25",
+              "@path": "C17,C26",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L26",
+              "@path": "C27,C18",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L27",
+              "@path": "C26,C27",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L28",
+              "@path": "C16,C28",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L29",
+              "@path": "C28,C26",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L30",
+              "@path": "C29,C30",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L31",
+              "@path": "C32,C29",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L32",
+              "@path": "C30,C31",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L33",
+              "@path": "C31,C32",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L34",
+              "@path": "C34,C33",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L35",
+              "@path": "C35,C34",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L36",
+              "@path": "C33,C36",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L37",
+              "@path": "C37,C34",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L38",
+              "@path": "C36,C37",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L39",
+              "@path": "C38,C35",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L40",
+              "@path": "C37,C38",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L41",
+              "@path": "C39,C40",
+              "@type": "HIP"
+            },
+            {
+              "@id": "L42",
+              "@path": "C40,C41",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L43",
+              "@path": "C41,C42",
+              "@type": "HIP"
+            },
+            {
+              "@id": "L44",
+              "@path": "C42,C39",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L45",
+              "@path": "C42,C43",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L46",
+              "@path": "C43,C41",
+              "@type": "STEPFLASH"
+            },
+            {
+              "@id": "L47",
+              "@path": "C39,C44",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L48",
+              "@path": "C44,C40",
+              "@type": "STEPFLASH"
+            },
+            {
+              "@id": "L49",
+              "@path": "C33,C24",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L50",
+              "@path": "C25,C45",
+              "@type": "STEPFLASH"
+            },
+            {
+              "@id": "L51",
+              "@path": "C46,C35",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L52",
+              "@path": "C45,C47",
+              "@type": "STEPFLASH"
+            },
+            {
+              "@id": "L53",
+              "@path": "C47,C46",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L54",
+              "@path": "C52,C53",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L55",
+              "@path": "C56,C55",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L56",
+              "@path": "C57,C58",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L57",
+              "@path": "C188,C192",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L58",
+              "@path": "C192,C136",
+              "@type": "OBTUSEOUTSIDECORNER"
+            },
+            {
+              "@id": "L59",
+              "@path": "C136,C137",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L60",
+              "@path": "C137,C188",
+              "@type": "OBTUSEOUTSIDECORNER"
+            },
+            {
+              "@id": "L61",
+              "@path": "C61,C62",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L62",
+              "@path": "C197,C64",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L63",
+              "@path": "C197,C61",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L64",
+              "@path": "C196,C197",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L65",
+              "@path": "C64,C131",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L66",
+              "@path": "C131,C196",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L67",
+              "@path": "C153,C65",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L68",
+              "@path": "C65,C196",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L69",
+              "@path": "C153,C130",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L70",
+              "@path": "C152,C153",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L71",
+              "@path": "C130,C66",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L72",
+              "@path": "C66,C152",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L73",
+              "@path": "C67,C152",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L74",
+              "@path": "C66,C68",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L75",
+              "@path": "C69,C68",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L76",
+              "@path": "C157,C69",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L77",
+              "@path": "C68,C127",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L78",
+              "@path": "C127,C156",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L79",
+              "@path": "C156,C157",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L80",
+              "@path": "C161,C70",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L81",
+              "@path": "C70,C156",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L82",
+              "@path": "C127,C126",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L83",
+              "@path": "C126,C161",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L84",
+              "@path": "C71,C160",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L85",
+              "@path": "C160,C161",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L86",
+              "@path": "C126,C72",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L87",
+              "@path": "C164,C165",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L88",
+              "@path": "C73,C72",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L89",
+              "@path": "C54,C164",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L90",
+              "@path": "C55,C73",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L91",
+              "@path": "C169,C57",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L92",
+              "@path": "C74,C56",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L93",
+              "@path": "C168,C169",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L94",
+              "@path": "C75,C74",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L95",
+              "@path": "C168,C58",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L96",
+              "@path": "C59,C75",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L97",
+              "@path": "C177,C76",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L98",
+              "@path": "C76,C52",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L99",
+              "@path": "C60,C77",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L100",
+              "@path": "C140,C77",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L101",
+              "@path": "C140,C141",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L102",
+              "@path": "C177,C141",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L103",
+              "@path": "C176,C177",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L104",
+              "@path": "C141,C78",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L105",
+              "@path": "C78,C176",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L106",
+              "@path": "C137,C79",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L107",
+              "@path": "C79,C189",
+              "@type": "OBTUSEINSIDECORNER"
+            },
+            {
+              "@id": "L108",
+              "@path": "C193,C80",
+              "@type": "OBTUSEINSIDECORNER"
+            },
+            {
+              "@id": "L109",
+              "@path": "C80,C136",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L110",
+              "@path": "C176,C81",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L111",
+              "@path": "C82,C78",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L112",
+              "@path": "C83,C82",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L113",
+              "@path": "C80,C79",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L114",
+              "@path": "C82,C140",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L115",
+              "@path": "C77,C83",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L116",
+              "@path": "C181,C182",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L117",
+              "@path": "C182,C84",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L118",
+              "@path": "C84,C180",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L119",
+              "@path": "C180,C181",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L120",
+              "@path": "C87,C86",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L121",
+              "@path": "C86,C88",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L122",
+              "@path": "C90,C89",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L123",
+              "@path": "C86,C67",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L124",
+              "@path": "C69,C87",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L125",
+              "@path": "C88,C85",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L126",
+              "@path": "C85,C87",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L127",
+              "@path": "C81,C62",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L128",
+              "@path": "C63,C91",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L129",
+              "@path": "C189,C90",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L130",
+              "@path": "C79,C91",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L131",
+              "@path": "C89,C193",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L132",
+              "@path": "C189,C188",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L133",
+              "@path": "C192,C193",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L134",
+              "@path": "C53,C180",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L135",
+              "@path": "C84,C54",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L136",
+              "@path": "C62,C92",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L137",
+              "@path": "C92,C63",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L138",
+              "@path": "C92,C64",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L139",
+              "@path": "C164,C94",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L140",
+              "@path": "C55,C95",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L141",
+              "@path": "C93,C95",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L142",
+              "@path": "C96,C54",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L143",
+              "@path": "C94,C96",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L144",
+              "@path": "C97,C56",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L145",
+              "@path": "C95,C97",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L146",
+              "@path": "C100,C52",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L147",
+              "@path": "C98,C57",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L148",
+              "@path": "C58,C99",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L149",
+              "@path": "C96,C98",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L150",
+              "@path": "C99,C100",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L151",
+              "@path": "C59,C101",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L152",
+              "@path": "C102,C60",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L153",
+              "@path": "C101,C102",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L154",
+              "@path": "C74,C103",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L155",
+              "@path": "C104,C75",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L156",
+              "@path": "C103,C104",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L157",
+              "@path": "C169,C105",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L158",
+              "@path": "C106,C168",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L159",
+              "@path": "C105,C106",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L160",
+              "@path": "C104,C101",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L161",
+              "@path": "C99,C106",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L162",
+              "@path": "C97,C103",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L163",
+              "@path": "C98,C105",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L164",
+              "@path": "C131,C107",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L165",
+              "@path": "C110,C130",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L166",
+              "@path": "C107,C108",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L167",
+              "@path": "C108,C109",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L168",
+              "@path": "C109,C110",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L169",
+              "@path": "C111,C83",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L170",
+              "@path": "C91,C111",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L171",
+              "@path": "C112,C59",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L172",
+              "@path": "C60,C112",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L173",
+              "@path": "C165,C71",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L174",
+              "@path": "C72,C113",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L175",
+              "@path": "C114,C73",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L176",
+              "@path": "C113,C114",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L177",
+              "@path": "C115,C165",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L178",
+              "@path": "C116,C93",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L179",
+              "@path": "C115,C116",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L180",
+              "@path": "C113,C115",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L181",
+              "@path": "C114,C116",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L182",
+              "@path": "C93,C94",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L183",
+              "@path": "C100,C102",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L254",
+              "@path": "C200,C201",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L255",
+              "@path": "C203,C200",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L256",
+              "@path": "C201,C202",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L257",
+              "@path": "C202,C203",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L258",
+              "@path": "C204,C205",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L259",
+              "@path": "C207,C204",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L260",
+              "@path": "C205,C206",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L261",
+              "@path": "C206,C207",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L262",
+              "@path": "C208,C209",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L263",
+              "@path": "C215,C208",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L264",
+              "@path": "C209,C210",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L265",
+              "@path": "C210,C211",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L266",
+              "@path": "C211,C212",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L267",
+              "@path": "C212,C213",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L268",
+              "@path": "C213,C214",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L269",
+              "@path": "C216,C215",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L270",
+              "@path": "C214,C217",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L271",
+              "@path": "C217,C218",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L272",
+              "@path": "C218,C216",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L273",
+              "@path": "C219,C220",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L274",
+              "@path": "C222,C219",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L275",
+              "@path": "C220,C221",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L276",
+              "@path": "C221,C222",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L277",
+              "@path": "C223,C224",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L278",
+              "@path": "C226,C223",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L279",
+              "@path": "C224,C225",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L280",
+              "@path": "C225,C226",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L281",
+              "@path": "C227,C228",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L282",
+              "@path": "C230,C227",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L283",
+              "@path": "C228,C229",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L284",
+              "@path": "C229,C230",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L285",
+              "@path": "C231,C232",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L286",
+              "@path": "C234,C231",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L287",
+              "@path": "C232,C233",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L288",
+              "@path": "C233,C234",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L289",
+              "@path": "C235,C236",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L290",
+              "@path": "C238,C235",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L291",
+              "@path": "C236,C237",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L292",
+              "@path": "C237,C238",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L293",
+              "@path": "C239,C240",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L294",
+              "@path": "C242,C239",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L295",
+              "@path": "C240,C241",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L296",
+              "@path": "C241,C242",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L297",
+              "@path": "C243,C244",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L298",
+              "@path": "C246,C243",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L299",
+              "@path": "C244,C245",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L300",
+              "@path": "C245,C246",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L301",
+              "@path": "C247,C248",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L302",
+              "@path": "C250,C247",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L303",
+              "@path": "C248,C249",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L304",
+              "@path": "C249,C250",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L305",
+              "@path": "C251,C252",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L306",
+              "@path": "C254,C251",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L307",
+              "@path": "C252,C253",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L308",
+              "@path": "C253,C254",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L309",
+              "@path": "C255,C256",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L310",
+              "@path": "C258,C255",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L311",
+              "@path": "C256,C257",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L312",
+              "@path": "C257,C258",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L313",
+              "@path": "C259,C260",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L314",
+              "@path": "C262,C259",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L315",
+              "@path": "C260,C261",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L316",
+              "@path": "C261,C262",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L317",
+              "@path": "C263,C264",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L318",
+              "@path": "C266,C263",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L319",
+              "@path": "C264,C265",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L320",
+              "@path": "C265,C266",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L321",
+              "@path": "C267,C268",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L322",
+              "@path": "C270,C267",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L323",
+              "@path": "C268,C269",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L324",
+              "@path": "C269,C270",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L325",
+              "@path": "C271,C272",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L326",
+              "@path": "C274,C271",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L327",
+              "@path": "C272,C273",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L328",
+              "@path": "C273,C274",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L329",
+              "@path": "C275,C276",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L330",
+              "@path": "C278,C275",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L331",
+              "@path": "C276,C277",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L332",
+              "@path": "C277,C278",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L333",
+              "@path": "C279,C280",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L334",
+              "@path": "C282,C279",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L335",
+              "@path": "C280,C281",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L336",
+              "@path": "C281,C282",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L337",
+              "@path": "C283,C284",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L338",
+              "@path": "C286,C283",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L339",
+              "@path": "C284,C285",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L340",
+              "@path": "C285,C286",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L341",
+              "@path": "C287,C288",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L342",
+              "@path": "C290,C287",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L343",
+              "@path": "C288,C289",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L344",
+              "@path": "C289,C290",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L345",
+              "@path": "C291,C292",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L346",
+              "@path": "C294,C291",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L347",
+              "@path": "C292,C293",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L348",
+              "@path": "C293,C294",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L349",
+              "@path": "C295,C296",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L350",
+              "@path": "C298,C295",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L351",
+              "@path": "C296,C297",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L352",
+              "@path": "C297,C298",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L353",
+              "@path": "C299,C300",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L354",
+              "@path": "C302,C299",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L355",
+              "@path": "C300,C301",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L356",
+              "@path": "C301,C302",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L357",
+              "@path": "C303,C304",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L358",
+              "@path": "C306,C303",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L359",
+              "@path": "C304,C305",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L360",
+              "@path": "C305,C306",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L361",
+              "@path": "C307,C308",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L362",
+              "@path": "C308,C309",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L363",
+              "@path": "C311,C312",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L364",
+              "@path": "C314,C311",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L365",
+              "@path": "C315,C307",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L366",
+              "@path": "C310,C315",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L367",
+              "@path": "C309,C316",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L368",
+              "@path": "C316,C310",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L369",
+              "@path": "C313,C317",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L370",
+              "@path": "C317,C314",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L371",
+              "@path": "C312,C318",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L372",
+              "@path": "C318,C313",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L373",
+              "@path": "C319,C320",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L374",
+              "@path": "C322,C319",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L375",
+              "@path": "C320,C321",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L376",
+              "@path": "C321,C322",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L377",
+              "@path": "C323,C324",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L378",
+              "@path": "C326,C323",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L379",
+              "@path": "C324,C325",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L380",
+              "@path": "C325,C326",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L381",
+              "@path": "C327,C328",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L382",
+              "@path": "C330,C327",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L383",
+              "@path": "C328,C329",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L384",
+              "@path": "C329,C330",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L385",
+              "@path": "C331,C332",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L386",
+              "@path": "C334,C331",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L387",
+              "@path": "C332,C333",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L388",
+              "@path": "C333,C334",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L389",
+              "@path": "C335,C336",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L390",
+              "@path": "C338,C335",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L391",
+              "@path": "C336,C337",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L392",
+              "@path": "C337,C338",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L393",
+              "@path": "C339,C340",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L394",
+              "@path": "C342,C339",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L395",
+              "@path": "C340,C341",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L396",
+              "@path": "C341,C342",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L397",
+              "@path": "C343,C344",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L398",
+              "@path": "C346,C343",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L399",
+              "@path": "C344,C345",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L400",
+              "@path": "C345,C346",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L401",
+              "@path": "C347,C348",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L402",
+              "@path": "C350,C347",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L403",
+              "@path": "C348,C349",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L404",
+              "@path": "C349,C350",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L405",
+              "@path": "C351,C352",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L406",
+              "@path": "C354,C351",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L407",
+              "@path": "C352,C353",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L408",
+              "@path": "C353,C354",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L409",
+              "@path": "C355,C356",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L410",
+              "@path": "C358,C355",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L411",
+              "@path": "C356,C357",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L412",
+              "@path": "C357,C358",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L413",
+              "@path": "C359,C360",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L414",
+              "@path": "C362,C359",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L415",
+              "@path": "C360,C361",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L416",
+              "@path": "C361,C362",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L417",
+              "@path": "C363,C364",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L418",
+              "@path": "C366,C363",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L419",
+              "@path": "C364,C365",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L420",
+              "@path": "C365,C366",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L421",
+              "@path": "C367,C368",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L422",
+              "@path": "C370,C367",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L423",
+              "@path": "C368,C369",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L424",
+              "@path": "C369,C370",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L425",
+              "@path": "C371,C372",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L426",
+              "@path": "C374,C371",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L427",
+              "@path": "C372,C373",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L428",
+              "@path": "C373,C374",
+              "@type": "OTHER"
+            }
+          ]
+        },
+        "POINTS": {
+          "POINT": [
+            {
+              "@id": "C5",
+              "@data": "92.562139720,62.744100284,0.000000000"
+            },
+            {
+              "@id": "C6",
+              "@data": "113.336160995,62.744100284,13.849347517"
+            },
+            {
+              "@id": "C7",
+              "@data": "113.336160995,24.248421702,13.849347517"
+            },
+            {
+              "@id": "C8",
+              "@data": "92.562139720,24.248421702,0.000000000"
+            },
+            {
+              "@id": "C9",
+              "@data": "92.562139720,36.020852219,0.000000000"
+            },
+            {
+              "@id": "C10",
+              "@data": "101.681813251,43.316591044,6.079782354"
+            },
+            {
+              "@id": "C11",
+              "@data": "92.562139720,50.612329869,0.000000000"
+            },
+            {
+              "@id": "C12",
+              "@data": "90.530280601,43.316591044,6.079782354"
+            },
+            {
+              "@id": "C13",
+              "@data": "90.530280601,50.612329869,0.000000000"
+            },
+            {
+              "@id": "C14",
+              "@data": "90.530280601,36.020852219,0.000000000"
+            },
+            {
+              "@id": "C15",
+              "@data": "134.110182271,62.744100284,0.000000000"
+            },
+            {
+              "@id": "C16",
+              "@data": "134.110182271,50.118240662,0.000000000"
+            },
+            {
+              "@id": "C17",
+              "@data": "118.582168296,32.371938977,10.352009316"
+            },
+            {
+              "@id": "C18",
+              "@data": "134.110182271,14.625637292,0.000000000"
+            },
+            {
+              "@id": "C19",
+              "@data": "134.110182271,16.028120901,0.000000000"
+            },
+            {
+              "@id": "C20",
+              "@data": "141.146711171,16.028120901,-4.691019267"
+            },
+            {
+              "@id": "C21",
+              "@data": "141.146711171,23.065083704,-4.691019267"
+            },
+            {
+              "@id": "C22",
+              "@data": "151.191615825,23.065083704,-11.387622369"
+            },
+            {
+              "@id": "C23",
+              "@data": "151.191615825,2.545197956,-11.387622369"
+            },
+            {
+              "@id": "C24",
+              "@data": "117.486554240,2.545197956,11.082418687"
+            },
+            {
+              "@id": "C25",
+              "@data": "117.486554240,24.248421702,11.082418687"
+            },
+            {
+              "@id": "C26",
+              "@data": "142.309652643,32.371938977,10.352009316"
+            },
+            {
+              "@id": "C27",
+              "@data": "142.309652643,14.625637292,0.000000000"
+            },
+            {
+              "@id": "C28",
+              "@data": "142.309652643,50.118240662,0.000000000"
+            },
+            {
+              "@id": "C29",
+              "@data": "143.665760709,42.235065196,-14.374507892"
+            },
+            {
+              "@id": "C30",
+              "@data": "141.200359652,42.235065196,-13.552707540"
+            },
+            {
+              "@id": "C31",
+              "@data": "141.200359652,37.261544590,-13.552707540"
+            },
+            {
+              "@id": "C32",
+              "@data": "143.665760709,37.261544590,-14.374507892"
+            },
+            {
+              "@id": "C33",
+              "@data": "87.106387390,2.545197956,-9.171025880"
+            },
+            {
+              "@id": "C34",
+              "@data": "101.725343839,14.240363115,0.574945087"
+            },
+            {
+              "@id": "C35",
+              "@data": "87.106387390,25.935528275,-9.171025880"
+            },
+            {
+              "@id": "C36",
+              "@data": "86.106279029,2.545197956,-9.171025880"
+            },
+            {
+              "@id": "C37",
+              "@data": "86.106279029,14.240363115,0.574945087"
+            },
+            {
+              "@id": "C38",
+              "@data": "86.106279029,25.935528275,-9.171025880"
+            },
+            {
+              "@id": "C39",
+              "@data": "102.861278310,64.400949813,-12.366262656"
+            },
+            {
+              "@id": "C40",
+              "@data": "102.861278310,61.545184335,-10.224438547"
+            },
+            {
+              "@id": "C41",
+              "@data": "99.516567486,61.545184335,-10.224438547"
+            },
+            {
+              "@id": "C42",
+              "@data": "99.516567486,64.400949813,-12.366262656"
+            },
+            {
+              "@id": "C43",
+              "@data": "96.860266772,61.545184335,-12.366262656"
+            },
+            {
+              "@id": "C44",
+              "@data": "105.490127893,61.545184335,-12.366262656"
+            },
+            {
+              "@id": "C45",
+              "@data": "115.796488330,25.126823125,9.955708080"
+            },
+            {
+              "@id": "C46",
+              "@data": "93.735807086,25.935610498,-4.751412749"
+            },
+            {
+              "@id": "C47",
+              "@data": "93.735720911,25.111182602,-4.751470199"
+            },
+            {
+              "@id": "C52",
+              "@data": "141.192106040,49.039508022,0.629260707"
+            },
+            {
+              "@id": "C53",
+              "@data": "141.192106040,32.371938977,10.352009316"
+            },
+            {
+              "@id": "C54",
+              "@data": "141.192106040,22.741592017,-4.690523386"
+            },
+            {
+              "@id": "C55",
+              "@data": "141.192106040,22.741592017,-31.028984688"
+            },
+            {
+              "@id": "C56",
+              "@data": "141.192106040,37.568734091,-31.028984688"
+            },
+            {
+              "@id": "C57",
+              "@data": "141.192106040,37.568734091,-13.552707540"
+            },
+            {
+              "@id": "C58",
+              "@data": "141.192106040,41.937004191,-13.552707540"
+            },
+            {
+              "@id": "C59",
+              "@data": "141.192106040,41.937004191,-31.028984688"
+            },
+            {
+              "@id": "C60",
+              "@data": "141.192106040,49.039508022,-30.308340397"
+            },
+            {
+              "@id": "C61",
+              "@data": "93.625446110,49.749343757,0.719155093"
+            },
+            {
+              "@id": "C62",
+              "@data": "93.625446110,61.666484777,0.719155093"
+            },
+            {
+              "@id": "C63",
+              "@data": "93.625446110,61.666484777,-25.897033240"
+            },
+            {
+              "@id": "C64",
+              "@data": "93.625446110,49.533597229,-23.342112246"
+            },
+            {
+              "@id": "C65",
+              "@data": "91.609013241,43.316591044,6.079782354"
+            },
+            {
+              "@id": "C66",
+              "@data": "93.625446110,37.099584859,-23.342112246"
+            },
+            {
+              "@id": "C67",
+              "@data": "93.625446110,36.883838331,0.719155093"
+            },
+            {
+              "@id": "C68",
+              "@data": "93.625446110,25.614826358,-23.342112246"
+            },
+            {
+              "@id": "C69",
+              "@data": "93.625446110,25.614826358,-4.814702566"
+            },
+            {
+              "@id": "C70",
+              "@data": "87.185011669,14.240363115,0.574945087"
+            },
+            {
+              "@id": "C71",
+              "@data": "117.486554240,3.154164532,11.082418687"
+            },
+            {
+              "@id": "C72",
+              "@data": "150.112883185,3.154164532,-25.522484213"
+            },
+            {
+              "@id": "C73",
+              "@data": "150.112883185,22.741592017,-31.028984688"
+            },
+            {
+              "@id": "C74",
+              "@data": "143.229096247,37.568734091,-31.028984688"
+            },
+            {
+              "@id": "C75",
+              "@data": "143.229096247,41.937004191,-31.028984688"
+            },
+            {
+              "@id": "C76",
+              "@data": "133.166291211,49.039508022,0.629260707"
+            },
+            {
+              "@id": "C77",
+              "@data": "130.869516757,49.039508022,-30.308340397"
+            },
+            {
+              "@id": "C78",
+              "@data": "133.031449631,61.666484777,-10.971051909"
+            },
+            {
+              "@id": "C79",
+              "@data": "97.137766854,61.666484777,-21.780716281"
+            },
+            {
+              "@id": "C80",
+              "@data": "105.210439131,61.666484777,-21.780716281"
+            },
+            {
+              "@id": "C81",
+              "@data": "113.336160995,61.666484777,13.849347517"
+            },
+            {
+              "@id": "C82",
+              "@data": "130.869516757,61.666484777,-10.971051909"
+            },
+            {
+              "@id": "C83",
+              "@data": "130.869516757,61.666484777,-30.308340397"
+            },
+            {
+              "@id": "C84",
+              "@data": "141.192106040,16.028120901,-4.691019267"
+            },
+            {
+              "@id": "C85",
+              "@data": "117.486554240,25.092528293,11.082418687"
+            },
+            {
+              "@id": "C86",
+              "@data": "93.625446110,25.092528293,0.727593154"
+            },
+            {
+              "@id": "C87",
+              "@data": "93.625446110,25.092528293,-4.817541388"
+            },
+            {
+              "@id": "C88",
+              "@data": "113.336160995,25.092528293,13.849347517"
+            },
+            {
+              "@id": "C89",
+              "@data": "102.861278310,61.666484777,-10.224438547"
+            },
+            {
+              "@id": "C90",
+              "@data": "99.516567486,61.666484777,-10.224438547"
+            },
+            {
+              "@id": "C91",
+              "@data": "97.135641960,61.666484777,-26.313062048"
+            },
+            {
+              "@id": "C92",
+              "@data": "93.625446110,61.666484777,-23.334957692"
+            },
+            {
+              "@id": "C93",
+              "@data": "150.112883185,22.741592017,-21.811125334"
+            },
+            {
+              "@id": "C94",
+              "@data": "150.112883185,22.741592017,-21.271759014"
+            },
+            {
+              "@id": "C95",
+              "@data": "141.192106040,22.741592017,-21.809990649"
+            },
+            {
+              "@id": "C96",
+              "@data": "141.192106040,22.741592017,-21.270624329"
+            },
+            {
+              "@id": "C97",
+              "@data": "141.192106040,37.568734091,-21.809990649"
+            },
+            {
+              "@id": "C98",
+              "@data": "141.192106040,37.568734091,-21.270624329"
+            },
+            {
+              "@id": "C99",
+              "@data": "141.192106040,41.937004191,-21.268193520"
+            },
+            {
+              "@id": "C100",
+              "@data": "141.192106040,49.039508022,-21.268193520"
+            },
+            {
+              "@id": "C101",
+              "@data": "141.192106040,41.937004191,-21.807559840"
+            },
+            {
+              "@id": "C102",
+              "@data": "141.192106040,49.039508022,-21.807559840"
+            },
+            {
+              "@id": "C103",
+              "@data": "143.229096247,37.568734091,-21.806306916"
+            },
+            {
+              "@id": "C104",
+              "@data": "143.229096247,41.937004191,-21.806306916"
+            },
+            {
+              "@id": "C105",
+              "@data": "143.229096247,37.568734091,-21.266940596"
+            },
+            {
+              "@id": "C106",
+              "@data": "143.229096247,41.937004191,-21.266940596"
+            },
+            {
+              "@id": "C107",
+              "@data": "91.609013241,46.558322024,-23.342112246"
+            },
+            {
+              "@id": "C108",
+              "@data": "91.609013241,46.558322024,-21.025643359"
+            },
+            {
+              "@id": "C109",
+              "@data": "91.609013241,40.210056496,-21.025643359"
+            },
+            {
+              "@id": "C110",
+              "@data": "91.609013241,40.210056496,-23.342112246"
+            },
+            {
+              "@id": "C111",
+              "@data": "130.873127735,61.666484777,-31.028944442"
+            },
+            {
+              "@id": "C112",
+              "@data": "141.192106040,49.044326467,-31.026737900"
+            },
+            {
+              "@id": "C113",
+              "@data": "150.112883185,3.154164532,-23.305950041"
+            },
+            {
+              "@id": "C114",
+              "@data": "150.112883185,22.741592017,-23.305950041"
+            },
+            {
+              "@id": "C115",
+              "@data": "150.112883185,3.154164532,-22.766583721"
+            },
+            {
+              "@id": "C116",
+              "@data": "150.112883185,22.741592017,-22.766583721"
+            },
+            {
+              "@id": "C126",
+              "@data": "87.185011669,3.154164532,-23.342112246"
+            },
+            {
+              "@id": "C127",
+              "@data": "87.185011669,25.614826358,-23.342112246"
+            },
+            {
+              "@id": "C130",
+              "@data": "91.609013241,37.099584859,-23.342112246"
+            },
+            {
+              "@id": "C131",
+              "@data": "91.609013241,49.533597229,-23.342112246"
+            },
+            {
+              "@id": "C136",
+              "@data": "102.772372170,64.110998758,-21.780716281"
+            },
+            {
+              "@id": "C137",
+              "@data": "99.610205497,64.110998758,-21.780716281"
+            },
+            {
+              "@id": "C140",
+              "@data": "130.869516757,49.039508022,-10.971051909"
+            },
+            {
+              "@id": "C141",
+              "@data": "133.031449631,49.039508022,-10.971051909"
+            },
+            {
+              "@id": "C152",
+              "@data": "93.625446110,37.099584859,0.898943867"
+            },
+            {
+              "@id": "C153",
+              "@data": "91.609013241,37.099584859,0.898943867"
+            },
+            {
+              "@id": "C156",
+              "@data": "87.185011669,25.614826358,-8.903774282"
+            },
+            {
+              "@id": "C157",
+              "@data": "87.507264786,25.614826358,-8.903774282"
+            },
+            {
+              "@id": "C160",
+              "@data": "87.867595611,3.154164532,-8.663553732"
+            },
+            {
+              "@id": "C161",
+              "@data": "87.185011669,3.154164532,-8.663553732"
+            },
+            {
+              "@id": "C164",
+              "@data": "150.112883185,22.741592017,-10.668467276"
+            },
+            {
+              "@id": "C165",
+              "@data": "150.112883185,3.154164532,-10.668467276"
+            },
+            {
+              "@id": "C168",
+              "@data": "143.229096247,41.937004191,-14.228953072"
+            },
+            {
+              "@id": "C169",
+              "@data": "143.229096247,37.568734091,-14.228953072"
+            },
+            {
+              "@id": "C176",
+              "@data": "133.031449631,61.666484777,0.719155093"
+            },
+            {
+              "@id": "C177",
+              "@data": "133.031449631,49.039508022,0.719155093"
+            },
+            {
+              "@id": "C180",
+              "@data": "141.192106040,16.028120901,0.818115439"
+            },
+            {
+              "@id": "C181",
+              "@data": "134.110182271,16.028120901,0.818115439"
+            },
+            {
+              "@id": "C182",
+              "@data": "134.110182271,16.028120901,0.000000000"
+            },
+            {
+              "@id": "C188",
+              "@data": "99.610205497,64.110998758,-12.148799364"
+            },
+            {
+              "@id": "C189",
+              "@data": "97.137766854,61.666484777,-12.154241467"
+            },
+            {
+              "@id": "C192",
+              "@data": "102.772372170,64.110998758,-12.148799364"
+            },
+            {
+              "@id": "C193",
+              "@data": "105.210439131,61.666484777,-12.154241467"
+            },
+            {
+              "@id": "C196",
+              "@data": "91.609013241,49.533597229,0.898943867"
+            },
+            {
+              "@id": "C197",
+              "@data": "93.625446110,49.533597229,0.898943867"
+            },
+            {
+              "@id": "C200",
+              "@data": "91.609013241,40.798771025,-21.025643359"
+            },
+            {
+              "@id": "C201",
+              "@data": "91.609013241,46.192434225,-21.025643359"
+            },
+            {
+              "@id": "C202",
+              "@data": "91.609013241,46.192434225,-12.413758344"
+            },
+            {
+              "@id": "C203",
+              "@data": "91.609013241,40.798771025,-12.413758344"
+            },
+            {
+              "@id": "C204",
+              "@data": "87.185011669,23.122753149,-23.342112246"
+            },
+            {
+              "@id": "C205",
+              "@data": "87.185011669,5.863030908,-23.342112246"
+            },
+            {
+              "@id": "C206",
+              "@data": "87.185011669,5.863030908,-15.798206108"
+            },
+            {
+              "@id": "C207",
+              "@data": "87.185011669,23.122753149,-15.798206108"
+            },
+            {
+              "@id": "C208",
+              "@data": "91.609013241,44.961709869,-4.635931554"
+            },
+            {
+              "@id": "C209",
+              "@data": "91.609013241,46.341599599,-4.635931554"
+            },
+            {
+              "@id": "C210",
+              "@data": "91.609013241,46.341599599,-8.411495794"
+            },
+            {
+              "@id": "C211",
+              "@data": "91.609013241,40.408570079,-8.411495794"
+            },
+            {
+              "@id": "C212",
+              "@data": "91.609013241,40.408570079,-4.635931554"
+            },
+            {
+              "@id": "C213",
+              "@data": "91.609013241,41.725511949,-4.635931554"
+            },
+            {
+              "@id": "C214",
+              "@data": "91.609013241,41.725511949,-2.734547597"
+            },
+            {
+              "@id": "C215",
+              "@data": "91.609013241,44.961709869,-2.734547597"
+            },
+            {
+              "@id": "C216",
+              "@data": "91.609013241,44.297445852,-2.013480619"
+            },
+            {
+              "@id": "C217",
+              "@data": "91.609013241,42.461466585,-2.013480619"
+            },
+            {
+              "@id": "C218",
+              "@data": "91.609013241,43.357599322,-1.763797602"
+            },
+            {
+              "@id": "C219",
+              "@data": "93.625446110,54.095629762,-19.703688172"
+            },
+            {
+              "@id": "C220",
+              "@data": "93.625446110,51.398798162,-19.703688172"
+            },
+            {
+              "@id": "C221",
+              "@data": "93.625446110,51.398798162,-14.264906600"
+            },
+            {
+              "@id": "C222",
+              "@data": "93.625446110,54.095629762,-14.264906600"
+            },
+            {
+              "@id": "C223",
+              "@data": "93.625446110,35.796054107,-20.121908456"
+            },
+            {
+              "@id": "C224",
+              "@data": "93.625446110,33.099222507,-20.121908456"
+            },
+            {
+              "@id": "C225",
+              "@data": "93.625446110,33.099222507,-14.188878935"
+            },
+            {
+              "@id": "C226",
+              "@data": "93.625446110,35.796054107,-14.188878935"
+            },
+            {
+              "@id": "C227",
+              "@data": "93.625446110,29.858858450,-20.121908456"
+            },
+            {
+              "@id": "C228",
+              "@data": "93.625446110,27.162026850,-20.121908456"
+            },
+            {
+              "@id": "C229",
+              "@data": "93.625446110,27.162026850,-14.188878935"
+            },
+            {
+              "@id": "C230",
+              "@data": "93.625446110,29.858858450,-14.188878935"
+            },
+            {
+              "@id": "C231",
+              "@data": "93.625446110,29.940189897,-8.306531761"
+            },
+            {
+              "@id": "C232",
+              "@data": "93.625446110,27.243358297,-8.306531761"
+            },
+            {
+              "@id": "C233",
+              "@data": "93.625446110,27.243358297,-2.912868561"
+            },
+            {
+              "@id": "C234",
+              "@data": "93.625446110,29.940189897,-2.912868561"
+            },
+            {
+              "@id": "C235",
+              "@data": "93.625446110,35.714722660,-8.306531761"
+            },
+            {
+              "@id": "C236",
+              "@data": "93.625446110,33.017891059,-8.306531761"
+            },
+            {
+              "@id": "C237",
+              "@data": "93.625446110,33.017891059,-2.912868561"
+            },
+            {
+              "@id": "C238",
+              "@data": "93.625446110,35.714722660,-2.912868561"
+            },
+            {
+              "@id": "C239",
+              "@data": "93.625446110,54.014298314,-8.306531761"
+            },
+            {
+              "@id": "C240",
+              "@data": "93.625446110,51.317466714,-8.306531761"
+            },
+            {
+              "@id": "C241",
+              "@data": "93.625446110,51.317466714,-2.912868561"
+            },
+            {
+              "@id": "C242",
+              "@data": "93.625446110,54.014298314,-2.912868561"
+            },
+            {
+              "@id": "C243",
+              "@data": "93.625446110,59.707499629,-8.306531761"
+            },
+            {
+              "@id": "C244",
+              "@data": "93.625446110,57.010668029,-8.306531761"
+            },
+            {
+              "@id": "C245",
+              "@data": "93.625446110,57.010668029,-2.912868561"
+            },
+            {
+              "@id": "C246",
+              "@data": "93.625446110,59.707499629,-2.912868561"
+            },
+            {
+              "@id": "C247",
+              "@data": "93.625446110,59.609224130,-19.703688172"
+            },
+            {
+              "@id": "C248",
+              "@data": "93.625446110,56.912392530,-19.703688172"
+            },
+            {
+              "@id": "C249",
+              "@data": "93.625446110,56.912392530,-14.264906600"
+            },
+            {
+              "@id": "C250",
+              "@data": "93.625446110,59.609224130,-14.264906600"
+            },
+            {
+              "@id": "C251",
+              "@data": "99.825608568,64.110998758,-19.043498111"
+            },
+            {
+              "@id": "C252",
+              "@data": "102.522440169,64.110998758,-19.043498111"
+            },
+            {
+              "@id": "C253",
+              "@data": "102.522440169,64.110998758,-13.649834910"
+            },
+            {
+              "@id": "C254",
+              "@data": "99.825608568,64.110998758,-13.649834910"
+            },
+            {
+              "@id": "C255",
+              "@data": "97.348740952,61.875076054,-18.996521504"
+            },
+            {
+              "@id": "C256",
+              "@data": "99.266487994,63.771163331,-18.996521504"
+            },
+            {
+              "@id": "C257",
+              "@data": "99.266487994,63.771163331,-13.602858304"
+            },
+            {
+              "@id": "C258",
+              "@data": "97.348740952,61.875076054,-13.602858304"
+            },
+            {
+              "@id": "C259",
+              "@data": "103.182200769,63.700086443,-19.043498111"
+            },
+            {
+              "@id": "C260",
+              "@data": "105.086629064,61.790622238,-19.043498111"
+            },
+            {
+              "@id": "C261",
+              "@data": "105.086629064,61.790622238,-13.649834910"
+            },
+            {
+              "@id": "C262",
+              "@data": "103.182200769,63.700086443,-13.649834910"
+            },
+            {
+              "@id": "C263",
+              "@data": "121.008448884,61.666484777,-8.786887145"
+            },
+            {
+              "@id": "C264",
+              "@data": "126.941478404,61.666484777,-8.786887145"
+            },
+            {
+              "@id": "C265",
+              "@data": "126.941478404,61.666484777,-3.393223945"
+            },
+            {
+              "@id": "C266",
+              "@data": "121.008448884,61.666484777,-3.393223945"
+            },
+            {
+              "@id": "C267",
+              "@data": "121.008448884,61.666484777,-19.136773056"
+            },
+            {
+              "@id": "C268",
+              "@data": "126.941478404,61.666484777,-19.136773056"
+            },
+            {
+              "@id": "C269",
+              "@data": "126.941478404,61.666484777,-13.743109856"
+            },
+            {
+              "@id": "C270",
+              "@data": "121.008448884,61.666484777,-13.743109856"
+            },
+            {
+              "@id": "C271",
+              "@data": "139.791878233,49.039508022,-30.280778380"
+            },
+            {
+              "@id": "C272",
+              "@data": "133.319482393,49.039508022,-30.280778380"
+            },
+            {
+              "@id": "C273",
+              "@data": "133.319482393,49.039508022,-22.729649899"
+            },
+            {
+              "@id": "C274",
+              "@data": "139.791878233,49.039508022,-22.729649899"
+            },
+            {
+              "@id": "C275",
+              "@data": "149.170206451,22.741592017,-21.266025229"
+            },
+            {
+              "@id": "C276",
+              "@data": "142.697810611,22.741592017,-21.266025229"
+            },
+            {
+              "@id": "C277",
+              "@data": "142.697810611,22.741592017,-13.714896749"
+            },
+            {
+              "@id": "C278",
+              "@data": "149.170206451,22.741592017,-13.714896749"
+            },
+            {
+              "@id": "C279",
+              "@data": "133.031449631,52.061789746,-8.380070035"
+            },
+            {
+              "@id": "C280",
+              "@data": "133.031449631,57.994819267,-8.380070035"
+            },
+            {
+              "@id": "C281",
+              "@data": "133.031449631,57.994819267,-2.986406835"
+            },
+            {
+              "@id": "C282",
+              "@data": "133.031449631,52.061789746,-2.986406835"
+            },
+            {
+              "@id": "C283",
+              "@data": "130.869516757,52.129455816,-18.865248572"
+            },
+            {
+              "@id": "C284",
+              "@data": "130.869516757,58.062485336,-18.865248572"
+            },
+            {
+              "@id": "C285",
+              "@data": "130.869516757,58.062485336,-13.471585372"
+            },
+            {
+              "@id": "C286",
+              "@data": "130.869516757,52.129455816,-13.471585372"
+            },
+            {
+              "@id": "C287",
+              "@data": "130.869516757,54.255422501,-22.934707593"
+            },
+            {
+              "@id": "C288",
+              "@data": "130.869516757,56.412887781,-22.934707593"
+            },
+            {
+              "@id": "C289",
+              "@data": "130.869516757,56.412887781,-21.855974953"
+            },
+            {
+              "@id": "C290",
+              "@data": "130.869516757,54.255422501,-21.855974953"
+            },
+            {
+              "@id": "C291",
+              "@data": "141.192106040,46.567846849,-20.147128026"
+            },
+            {
+              "@id": "C292",
+              "@data": "141.192106040,43.871015249,-20.147128026"
+            },
+            {
+              "@id": "C293",
+              "@data": "141.192106040,43.871015249,-14.214098505"
+            },
+            {
+              "@id": "C294",
+              "@data": "141.192106040,46.567846849,-14.214098505"
+            },
+            {
+              "@id": "C295",
+              "@data": "141.192106040,35.679248472,-20.147128026"
+            },
+            {
+              "@id": "C296",
+              "@data": "141.192106040,32.982416872,-20.147128026"
+            },
+            {
+              "@id": "C297",
+              "@data": "141.192106040,32.982416872,-14.214098505"
+            },
+            {
+              "@id": "C298",
+              "@data": "141.192106040,35.679248472,-14.214098505"
+            },
+            {
+              "@id": "C299",
+              "@data": "141.192106040,46.609198336,-12.441085520"
+            },
+            {
+              "@id": "C300",
+              "@data": "141.192106040,43.912366736,-12.441085520"
+            },
+            {
+              "@id": "C301",
+              "@data": "141.192106040,43.912366736,-6.508056000"
+            },
+            {
+              "@id": "C302",
+              "@data": "141.192106040,46.609198336,-6.508056000"
+            },
+            {
+              "@id": "C303",
+              "@data": "141.192106040,35.741275703,-12.441085520"
+            },
+            {
+              "@id": "C304",
+              "@data": "141.192106040,33.044444103,-12.441085520"
+            },
+            {
+              "@id": "C305",
+              "@data": "141.192106040,33.044444103,-6.508056000"
+            },
+            {
+              "@id": "C306",
+              "@data": "141.192106040,35.741275703,-6.508056000"
+            },
+            {
+              "@id": "C307",
+              "@data": "141.192106040,46.614837175,-5.018932750"
+            },
+            {
+              "@id": "C308",
+              "@data": "141.192106040,43.918005575,-5.018932750"
+            },
+            {
+              "@id": "C309",
+              "@data": "141.192106040,43.918005575,-1.782734830"
+            },
+            {
+              "@id": "C310",
+              "@data": "141.192106040,45.802894265,-2.630939408"
+            },
+            {
+              "@id": "C311",
+              "@data": "141.192106040,35.619100855,-5.018932750"
+            },
+            {
+              "@id": "C312",
+              "@data": "141.192106040,32.922269255,-5.018932750"
+            },
+            {
+              "@id": "C313",
+              "@data": "141.192106040,33.781202491,-2.902998963"
+            },
+            {
+              "@id": "C314",
+              "@data": "141.192106040,35.619100855,-1.782734830"
+            },
+            {
+              "@id": "C315",
+              "@data": "141.192106040,46.488169855,-3.805354567"
+            },
+            {
+              "@id": "C316",
+              "@data": "141.192106040,44.954457821,-2.108977116"
+            },
+            {
+              "@id": "C317",
+              "@data": "141.192106040,34.393055696,-2.292411822"
+            },
+            {
+              "@id": "C318",
+              "@data": "141.192106040,33.060575383,-4.045878900"
+            },
+            {
+              "@id": "C319",
+              "@data": "141.192106040,30.175457020,-8.716883855"
+            },
+            {
+              "@id": "C320",
+              "@data": "141.192106040,24.242427500,-8.716883855"
+            },
+            {
+              "@id": "C321",
+              "@data": "141.192106040,24.242427500,-3.323220655"
+            },
+            {
+              "@id": "C322",
+              "@data": "141.192106040,30.175457020,-3.323220655"
+            },
+            {
+              "@id": "C323",
+              "@data": "150.112883185,20.848036726,-20.221083062"
+            },
+            {
+              "@id": "C324",
+              "@data": "150.112883185,17.072472486,-20.221083062"
+            },
+            {
+              "@id": "C325",
+              "@data": "150.112883185,17.072472486,-13.748687221"
+            },
+            {
+              "@id": "C326",
+              "@data": "150.112883185,20.848036726,-13.748687221"
+            },
+            {
+              "@id": "C327",
+              "@data": "150.112883185,15.137406812,-20.221083062"
+            },
+            {
+              "@id": "C328",
+              "@data": "150.112883185,11.361842572,-20.221083062"
+            },
+            {
+              "@id": "C329",
+              "@data": "150.112883185,11.361842572,-13.748687221"
+            },
+            {
+              "@id": "C330",
+              "@data": "150.112883185,15.137406812,-13.748687221"
+            },
+            {
+              "@id": "C331",
+              "@data": "150.112883185,9.426776897,-20.221083062"
+            },
+            {
+              "@id": "C332",
+              "@data": "150.112883185,5.651212657,-20.221083062"
+            },
+            {
+              "@id": "C333",
+              "@data": "150.112883185,5.651212657,-13.748687221"
+            },
+            {
+              "@id": "C334",
+              "@data": "150.112883185,9.426776897,-13.748687221"
+            },
+            {
+              "@id": "C335",
+              "@data": "145.176807912,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C336",
+              "@data": "148.413005832,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C337",
+              "@data": "148.413005832,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C338",
+              "@data": "145.176807912,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C339",
+              "@data": "139.536929412,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C340",
+              "@data": "142.773127333,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C341",
+              "@data": "142.773127333,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C342",
+              "@data": "139.536929412,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C343",
+              "@data": "133.975382559,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C344",
+              "@data": "137.211580479,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C345",
+              "@data": "137.211580479,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C346",
+              "@data": "133.975382559,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C347",
+              "@data": "128.257172413,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C348",
+              "@data": "131.493370333,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C349",
+              "@data": "131.493370333,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C350",
+              "@data": "128.257172413,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C351",
+              "@data": "122.665032205,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C352",
+              "@data": "125.901230125,3.154164532,-19.850841960"
+            },
+            {
+              "@id": "C353",
+              "@data": "125.901230125,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C354",
+              "@data": "122.665032205,3.154164532,-12.299713480"
+            },
+            {
+              "@id": "C355",
+              "@data": "117.010329041,3.154164532,-18.438250482"
+            },
+            {
+              "@id": "C356",
+              "@data": "119.167794321,3.154164532,-18.438250482"
+            },
+            {
+              "@id": "C357",
+              "@data": "119.167794321,3.154164532,-13.583953602"
+            },
+            {
+              "@id": "C358",
+              "@data": "117.010329041,3.154164532,-13.583953602"
+            },
+            {
+              "@id": "C359",
+              "@data": "124.034565142,3.154164532,-8.504142424"
+            },
+            {
+              "@id": "C360",
+              "@data": "129.967594662,3.154164532,-8.504142424"
+            },
+            {
+              "@id": "C361",
+              "@data": "129.967594662,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C362",
+              "@data": "124.034565142,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C363",
+              "@data": "109.958724089,3.154164532,-6.315254548"
+            },
+            {
+              "@id": "C364",
+              "@data": "115.891753610,3.154164532,-6.315254548"
+            },
+            {
+              "@id": "C365",
+              "@data": "115.891753610,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C366",
+              "@data": "109.958724089,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C367",
+              "@data": "106.345968814,3.154164532,-5.170349008"
+            },
+            {
+              "@id": "C368",
+              "@data": "107.964067774,3.154164532,-5.170349008"
+            },
+            {
+              "@id": "C369",
+              "@data": "107.964067774,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C370",
+              "@data": "106.345968814,3.154164532,-3.012883728"
+            },
+            {
+              "@id": "C371",
+              "@data": "87.185011669,15.330412689,-8.537320795"
+            },
+            {
+              "@id": "C372",
+              "@data": "87.185011669,13.712313729,-8.537320795"
+            },
+            {
+              "@id": "C373",
+              "@data": "87.185011669,13.712313729,-6.379855515"
+            },
+            {
+              "@id": "C374",
+              "@data": "87.185011669,15.330412689,-6.379855515"
+            }
+          ]
+        }
+      }
+    },
+    "MATERIALS": {
+      "MATERIAL": {
+        "@id": "1",
+        "@label": "Unknown"
+      }
+    }
+  }
+}
