@@ -11,7 +11,6 @@ public class JFLineReader: Sequence, IteratorProtocol {
 
     deinit {
         fclose(file)
-        buffer.deallocate(capacity: Int(bufferSize))
     }
 
     public func next() -> String? {

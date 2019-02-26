@@ -53,13 +53,6 @@ public class JFOBJParser<T: Sequence> where T.Iterator.Element == String {
 
     public init(source: T) {
         self.source = source
-        /*self.onVertex = { (x, y, z, w) in }
-        self.onTextureCoord = { (u, v, w) in }
-        self.onVertexNormal = { (x, y, z) in }
-        self.onParameterSpaceVertex = { (u, v, w) in }
-        self.onFace = { (count, vs, vtcs, vns) in }
-        self.onUnknown = { (line) in }
-        self.group = { (name) in}*/
         self.finish = {}
     }
 
