@@ -17,4 +17,5 @@ Fastlane/README.md
 build/*
 
 objScanner/Model/model.obj
+objScanner/Model/model.json
 

@@ -12,34 +12,36 @@ import SceneKit
 class ViewController: UIViewController {
 
     // MARK: - Properties
-    var evObjects = [EVObject]()
+
+    var roofObjects = [EVObject]()
+    var wallObjects = [EVObject]()
+    var penObjects = [EVObject]()
     let wallTextures = [#imageLiteral(resourceName: "wall1"), #imageLiteral(resourceName: "wall2"), #imageLiteral(resourceName: "wall3")]
     let roofTextures = [#imageLiteral(resourceName: "roof1"), #imageLiteral(resourceName: "roof2"), #imageLiteral(resourceName: "roof3")]
 
     // MARK: - IBOutlets
+
     @IBOutlet weak var sceneView: SCNView!
 
     // MARK: - IBActions
 
-    @IBAction func setWallsTexture(_ sender: UIButton) {
-        let objectIndex = Int.random(in: 0 ..< evObjects.count)
-        var rootNode = evObjects[objectIndex]
-        guard !rootNode.name.contains("Roof"), !rootNode.name.contains("WallPen") else { return }
+    @IBAction func setWallTexture(_ sender: UIButton) {
+        let objectIndex = Int.random(in: 0 ..< wallObjects.count)
+        var rootNode = wallObjects[objectIndex]
         let index = Int.random(in: 0 ..< 3)
         let texture = wallTextures[index]
         rootNode.material.multiply.contents = texture
     }
-    
-    @IBAction func setRoofsTexture(_ sender: UIButton) {
-        let objectIndex = Int.random(in: 0 ..< evObjects.count)
-        var rootNode = evObjects[objectIndex]
-        guard rootNode.name.contains("Roof") else { return }
+
+    @IBAction func setRoofTexture(_ sender: UIButton) {
+        let objectIndex = Int.random(in: 0 ..< roofObjects.count)
+        var rootNode = roofObjects[objectIndex]
         let index = Int.random(in: 0 ..< 3)
         let texture = roofTextures[index]
         rootNode.material.multiply.contents = texture
     }
 
-    // AMRK: - Properties
+    // MARK: - Properties
     var parser: JFOBJParser<JFLineReader>?
 
     lazy var cameraNode = SCNNode()
@@ -89,10 +91,6 @@ extension ViewController {
         sceneView.isPlaying = true
     }
 
-    private func createModel() {
-
-    }
-
     private func showModel() {
         guard let parser = self.parser else {
             return
@@ -100,17 +98,18 @@ extension ViewController {
 
         let groups = parser.model.groups
 
-
-
         for group in groups {
-            var type: NodeType = .wall
+            var evObject: EVObject
             if group.name.contains("Roof") {
-                type = .roof
+                evObject = EVObject(type: .roof, group: group)
+                roofObjects.append(evObject)
             } else if group.name.contains("WallPen") {
-                type = .penetration
+                evObject = EVObject(type: .penetration, group: group)
+                penObjects.append(evObject)
+            } else {
+                evObject = EVObject(type: .wall, group: group)
+                wallObjects.append(evObject)
             }
-            let evObject = EVObject(type: type, group: group)
-            self.evObjects.append(evObject)
 
             scene.rootNode.addChildNode(evObject.rootNode)
         }
@@ -163,30 +162,39 @@ struct EVObject {
             material.multiply.contents = #imageLiteral(resourceName: "window")
         }
 
+        var vertices = [SCNVector3]()
+        var normals = [SCNVector3]()
+        var textures = [CGPoint]()
 
         for face in group.faces {
-            let indices: [Int32] = [0, 1, 2]
-
-            var vertices = [SCNVector3]()
-            for vertex in face.vertices {
-                let vector = SCNVector3(vertex.x, vertex.y, vertex.z)
-                vertices.append(vector)
+            face.vertices.forEach {
+                vertices.append(SCNVector3($0.x, $0.y, $0.z))
             }
 
-            let sVertices = SCNGeometrySource(vertices: vertices)
-            let normals = face.normals.filter({$0 != nil }) as! [SCNVector3]
-            let sNormals = SCNGeometrySource(normals: normals)
-            let textures = face.textures.filter({$0 != nil}) as! [CGPoint]
-            let sTextures = SCNGeometrySource(textureCoordinates: textures)
+            (face.normals.filter({ $0 != nil }) as! [SCNVector3]).forEach {
+                normals.append($0)
+            }
 
-            let element = SCNGeometryElement(indices: indices, primitiveType: .triangles)
-
-            let geometry = SCNGeometry(sources: [sVertices, sNormals, sTextures], elements: [element])
-
-            let node = SCNNode(geometry: geometry)
-            node.geometry?.materials = [material]
-            rootNode.addChildNode(node)
-
+            (face.textures.filter({ $0 != nil }) as! [CGPoint]).forEach {
+                textures.append($0)
+            }
         }
+
+        var indices = [Int16]()
+        for index in 0 ..< vertices.count {
+            indices.append(Int16(index))
+        }
+
+        let element = SCNGeometryElement(indices: indices, primitiveType: .triangles)
+
+        let sVertices = SCNGeometrySource(vertices: vertices)
+        let sNormals = SCNGeometrySource(normals: normals)
+        let sTextures = SCNGeometrySource(textureCoordinates: textures)
+
+        let geometry = SCNGeometry(sources: [sVertices, sNormals, sTextures], elements: [element])
+        geometry.materials = [material]
+
+        let node = SCNNode(geometry: geometry)
+        rootNode.addChildNode(node)
     }
 }
